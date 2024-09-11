@@ -1,6 +1,6 @@
 
 # Setup Node
-FROM node:18-alpine as build
+FROM node:20-alpine as build
 
 # Dependency and Build
 WORKDIR /app
